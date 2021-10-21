@@ -17,3 +17,5 @@
 ![FlowChart-MovieApp](https://user-images.githubusercontent.com/69587570/138198048-610daca4-d8e4-468b-a408-9cf06a0a936d.jpg)
 
 <h3 align='center'> WireFrame </h3>
+
+![wireframe2](https://user-images.githubusercontent.com/69587570/138344749-da70fcb0-7f5e-409d-84a5-6c0515741b05.png)
