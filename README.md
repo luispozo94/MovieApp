@@ -13,3 +13,5 @@
 
 
 <h3 align='center'> File System folder Structure </h3>
+
+![FlowChart-MovieApp](https://user-images.githubusercontent.com/69587570/138198048-610daca4-d8e4-468b-a408-9cf06a0a936d.jpg)
