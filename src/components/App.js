@@ -2,7 +2,7 @@ import 'core-js';
 import React, { Fragment, useEffect, useState } from 'react';
 import MovieList from './MovieList';
 import SearchBar from './SearchBar';
-// import { Grid } from 'bootstrap';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style.css';
 import MovieHeading from './MovieHeading';
