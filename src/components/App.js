@@ -9,7 +9,7 @@ import MovieHeading from './MovieHeading';
 import AddFavButton from './AddFavButton';
 import DeleteFavorites from './DeleteFavorites';
 
-const App = (props) => {
+const App = () => {
 	const [movies, setMovie] = useState([]); //state to store movies
 	const [searchValue, setSearchValue] = useState(''); //state to store user input
 	const [favorites, setFavorites] = useState([]); //state to store favorites
@@ -37,6 +37,7 @@ const App = (props) => {
 		};
 		await fetch('/api/favs', options);
 	};
+
 	//created a FETCH REQUEST to get the favorites from the DB!
 	const fetchFavorites = async () => {
 		const { favs } = await fetch('/api/favs').then((res) => res.json());
