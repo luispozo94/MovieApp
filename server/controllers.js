@@ -60,6 +60,8 @@ movieController.addFavs = async (req, res, next) => {
 	}
 	next();
 };
+
+
 //created a middleware that will get Favorites a movie from the database
 movieController.getFavs = async (req, res, next) => {
 	const model = await movieModel.findOne({});
